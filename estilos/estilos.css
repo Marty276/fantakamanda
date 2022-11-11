@@ -1,0 +1,58 @@
+body{
+}
+
+header{
+    position: sticky;
+    height: 130px;
+    width: 100%;
+    background-color: yellowgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0px;
+	z-index: 10;
+
+}
+.boton{
+    background-color: orange;
+    min-width: 130px;
+	height: 40px;
+    border-radius: 12px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.zanahorias {
+    position: absolute;
+    width: 80%;
+    background-color: #ffe6cc;
+    min-height: 100%;
+    top: 0px;
+    left: 10%;
+	scroll-behavior: smooth;
+}
+
+.manzanas {
+    position:relative;
+    width: 80%;
+    left: 10%;
+	scroll-behavior: smooth;
+}
+
+.footer {
+    background: greenyellow;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    color: #252850;
+    margin-top: 2rem;
+}
